@@ -1,0 +1,183 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-image: url(../assets/home.png);
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+/* */
+.ancient-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.ancient-card {
+    width: 200px;
+    height: 260px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.ancient-card:hover {
+    border: 2px solid red;
+}
+.ancient-card--active {
+    border: 2px solid red;
+}
+#Azathoth {
+    background-image: url(../assets/ancients/Azathoth.png); 
+}
+#Cthulthu {
+    background-image: url(../assets/ancients/Cthulthu.png); 
+}
+#Sothoth {
+    background-image: url(../assets/ancients/Sothoth.png); 
+}
+#Niggurath {
+    background-image: url(../assets/ancients/Niggurath.png); 
+}
+
+
+/**/
+
+.difficulty-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.difficulty {
+    width: 150px;
+    height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(156, 148, 163);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.difficulty:hover {
+    border: 2px solid red;
+}
+.difficulty--active {
+    border: 2px solid red;
+}
+
+/**/
+.stage-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    color: #ffffff;
+}
+.card-quality {
+    display: flex;
+    gap: 10px;
+}
+.card-green {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: green;
+}
+.card-brown {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: brown;
+}
+.card-blue {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
