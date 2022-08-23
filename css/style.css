@@ -147,27 +147,79 @@ h3 {
     display: flex;
     gap: 10px;
 }
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card-green {
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
     background-color: green;
 }
 .card-brown {
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
     background-color: brown;
 }
 .card-blue {
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
     background-color: blue;
 }
 
+/**/
+.cards-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
 
+.card-button {
+  color: #ffffff;
+  width: 300px;
+  height: 100px;
+  background-color: #743131;
+  border-radius: 20px;
+  /*text-align: center;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 40px;
+}
 
+.card-button:hover {
+  border: 2px solid red;
+}
+
+.deck {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deck-stage {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.deck-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.deck-cards--fish {
+  width: 200px;
+  height: 260px;
+  background-image: url(../assets/background-card.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 
 

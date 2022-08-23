@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="ancient-container">
-        <div class="ancient-card" id="Azathoth"></div>
+        <div class="ancient-card ancient-card--active" id="Azathoth"></div>
         <div class="ancient-card" id="Cthulthu"></div>
         <div class="ancient-card" id="Sothoth"></div>
         <div class="ancient-card" id="Niggurath"></div>
@@ -17,7 +17,7 @@
     <div class="difficulty-container">
         <div class="difficulty" id="very_light">Очень лёгкий</div>
         <div class="difficulty" id="light">Лёгкий</div>
-        <div class="difficulty" id="middle">Средний</div>
+        <div class="difficulty difficulty--active" id="middle">Средний</div>
         <div class="difficulty" id="high">Высокий</div>
         <div class="difficulty" id="very_high">Очень высокий</div>
     </div>
@@ -25,38 +25,39 @@
         <div class="stage">
             <h3>Первая стадия</h3>
             <div class="card-quality">
-                <div class="card-green"></div>
-                <div class="card-brown"></div>
-                <div class="card-blue"></div>
+                <div class="circle card-green">0</div>
+                <div class="circle card-brown">0</div>
+                <div class="circle card-blue">0</div>
             </div>
         </div>
         <div class="stage">
             <h3>Вторая стадия</h3>
             <div class="card-quality">
-                <div class="card-green"></div>
-                <div class="card-brown"></div>
-                <div class="card-blue"></div>
+                <div class="circle card-green">0</div>
+                <div class="circle card-brown">0</div>
+                <div class="circle card-blue">0</div>
             </div>
         </div>
         <div class="stage">
             <h3>Третья стадия</h3>
             <div class="card-quality">
-                <div class="card-green"></div>
-                <div class="card-brown"></div>
-                <div class="card-blue"></div>
+                <div class="circle card-green">0</div>
+                <div class="circle card-brown">0</div>
+                <div class="circle card-blue">0</div>
             </div>
         </div>
     </div>
     <div class="cards-container">
-        <div class="card-button"></div>
+        <div class="card-button">Показать карту</div>
         <div class="deck">
-            <div class="deck-stage"></div>
+            <div class="deck-stage">Первая стадия</div>
             <div class="deck-cards">
+                <!--<div class="deck-cards--fish"></div>
                 <div class="deck-cards--fish"></div>
-                <div class="deck-cards--fish"></div>
-                <div class="deck-cards--fish"></div>
+                <div class="deck-cards--fish"></div>-->
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="script/index.js"></script>
 </body>
 </html>
