@@ -88,9 +88,6 @@ function mythDeck() {
                 cards_blue[1].innerHTML = ancients[i].blue[1]
                 cards_blue[2].innerHTML = ancients[i].blue[2]
 
-                /*console.log('stage1 = ' + cards_stage1)
-                console.log('stage2 = ' + cards_stage2)
-                console.log('stage3 = ' + cards_stage3)*/
                 for (let f = 1;f<=cards_stage1;f++) {
                     let elem = document.createElement('div');
                     elem.classList.add('deck-cards--fish');
@@ -109,7 +106,6 @@ mythDeck()
 function fishRemove() {
     let fish = document.querySelectorAll('.deck-cards--fish');
     for (let i=0;i<=fish.length-1;i++) {
-        //console.log(fish[i])
         fish[i].remove()
     }
 }
@@ -128,3 +124,7 @@ function collectCards(snow, tentacles, defaulth) {
 }
 
 console.log(collectCards(green_snow))
+
+/*function buildDeck() {
+
+}*/
