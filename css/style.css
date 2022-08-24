@@ -63,89 +63,91 @@ select {
 
 /* */
 .ancient-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
 }
 .ancient-card {
-    width: 200px;
-    height: 260px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    cursor: pointer;
+  width: 200px;
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
 }
 .ancient-card:hover {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 .ancient-card--active {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 #Azathoth {
-    background-image: url(../assets/ancients/Azathoth.png); 
+  background-image: url(../assets/ancients/Azathoth.png); 
 }
 #Cthulthu {
-    background-image: url(../assets/ancients/Cthulthu.png); 
+  background-image: url(../assets/ancients/Cthulthu.png); 
 }
 #Sothoth {
-    background-image: url(../assets/ancients/Sothoth.png); 
+  background-image: url(../assets/ancients/Sothoth.png); 
 }
 #Niggurath {
-    background-image: url(../assets/ancients/Niggurath.png); 
+  background-image: url(../assets/ancients/Niggurath.png); 
 }
 
 
 /**/
 
 .difficulty-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
 }
 
 .difficulty {
-    width: 150px;
-    height: 30px;
-    color: #ffffff;
-    text-align: center;
-    background-color: rgb(156, 148, 163);
-    border-radius: 10px;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  color: #ffffff;
+  background-color: rgb(156, 148, 163);
+  border-radius: 10px;
+  cursor: pointer;
 }
 .difficulty:hover {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 .difficulty--active {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 
 /**/
 .stage-container {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
 }
 .stage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 h3 {
-    color: #ffffff;
+  color: #ffffff;
 }
 .card-quality {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .circle {
@@ -157,13 +159,13 @@ h3 {
   align-items: center;
 }
 .card-green {
-    background-color: green;
+  background-color: green;
 }
 .card-brown {
-    background-color: brown;
+  background-color: brown;
 }
 .card-blue {
-    background-color: blue;
+  background-color: blue;
 }
 
 /**/
@@ -183,12 +185,12 @@ h3 {
   height: 100px;
   background-color: #743131;
   border-radius: 20px;
-  /*text-align: center;*/
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   font-size: 40px;
+  user-select: none;
 }
 
 .card-button:hover {
